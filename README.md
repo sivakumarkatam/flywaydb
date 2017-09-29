@@ -1,3 +1,3 @@
 # flywaydb
 INSTALL THROUGH MAVEN
-mvn flyway:migrate
+#mvn flyway:migrate
