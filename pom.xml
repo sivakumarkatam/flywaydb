@@ -41,9 +41,9 @@
 				</dependencies>
 				
 				<configuration>
-					<user>root</user>
-					<password>root</password>
-					<url>jdbc:mysql://localhost/blcl_db</url>
+					<user>flywatdb</user>
+					<password>flywaydb</password>
+					<url>jdbc:mysql://flyway.ck1zuoqmhhyf.ap-southeast-1.rds.amazonaws.com/flywaydb</url>
 					<locations>
 						<location>filesystem:migrationSqlScripts</location>
 					</locations>
