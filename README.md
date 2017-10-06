@@ -6,7 +6,7 @@ INSTALL THROUGH MAVEN
 ==> aws-slack-integration.json
     ==========================
 Description : 
--------------
+---------------
 It is CFN template.
 It will create the IAM role, Lambda function and SNS topic required for the Slack integration.
 This SNS topic will be used in the CW alarm script.
