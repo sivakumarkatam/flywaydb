@@ -20,7 +20,7 @@
 
 				<groupId>org.flywaydb</groupId>
 			    <artifactId>flyway-maven-plugin</artifactId>
-			    <version>4.0.3</version>
+			    <version>5.1.4</version>
 
 				<executions>
 				    <execution>
@@ -43,7 +43,7 @@
 				<configuration>
 					<user>${databaseuser}</user>
 					<password>${databasepassword}</password>
-					<url>jdbc:mysql://flyway.ck1zuoqmhhyf.ap-southeast-1.rds.amazonaws.com/flywaydbdemo</url>
+					<url>jdbc:mysql://localhost:3306/fwdemo</url>
 					<locations>
 						<location>filesystem:migrationSqlScripts</location>
 					</locations>
